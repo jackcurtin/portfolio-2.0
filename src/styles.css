@@ -5,3 +5,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 ul {
   list-style: none;
 }
+a, a:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}

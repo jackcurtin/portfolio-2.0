@@ -16,6 +16,9 @@ li{
 li:hover{
   background-color: grey;
 }
+li:active{
+  background-color: lightgrey;
+}
 h1{
   margin: 0% 1% 0.5% 1%;
   padding-top: 0.5%;
