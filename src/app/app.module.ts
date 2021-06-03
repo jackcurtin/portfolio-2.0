@@ -10,6 +10,7 @@ import {MatIconModule} from "@angular/material/icon";
 import { ProgrammingComponent } from './programming/programming.component';
 import {MatCardModule} from "@angular/material/card";
 import { AboutComponent } from './about/about.component';
+import {MatListModule} from "@angular/material/list";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     MatMenuModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,22 @@
+#page{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blurb{
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+#links{
+  display: inline-flex;
+  flex-direction: row;
+
+}
+img{
+  width: 25%;
+  min-width: 80px;
+}
