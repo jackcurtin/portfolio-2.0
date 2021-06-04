@@ -3,23 +3,35 @@ nav{
   color: whitesmoke;
   width: 100vw;
 }
-ul{
+mat-list{
   display: inline-flex;
   margin: 0;
-  width: 100%;
+  width: 45%;
 }
-li{
-  margin-right: 1.5%;
-  margin-left: 1.5%;
-  padding: 0.5% 0.75% 0.75% 0.75%;
+mat-list-item{
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
-li:hover{
+mat-list-item:hover{
   background-color: grey;
+  cursor: pointer;
+
 }
-li:active{
+h4:active{
   background-color: lightgrey;
+}
+h4{
+  color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  text-wrap: none;
+  margin: 0;
 }
 h1{
   margin: 0% 1% 0.5% 1%;
   padding-top: 0.5%;
+}
+about{
+  width: content-box;
 }
