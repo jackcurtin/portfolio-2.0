@@ -1,16 +1,21 @@
 <section>
-  <mat-card id="expo">
-    <mat-card-title>
-      my journey as a developer
-    </mat-card-title>
-    <mat-card-subtitle>
-      here are a few of my experiences as i have gathered knowledge as a programmer.<br>
-      each card below acts as a link to the project.
-    </mat-card-subtitle>
-  </mat-card>
+  <div id="heading">
+    <mat-card id="expo">
+      <img src="https://static.thenounproject.com/png/1873915-200.png" class="program-icon">
+      <div>
+        <mat-card-title id="projects-heading">
+          projects
+        </mat-card-title>
+        <mat-card-subtitle>
+          here are a few of my experiences as i have gathered knowledge as a programmer.<br>
+          each card below acts as a link to the project.
+        </mat-card-subtitle>
+      </div>
+    </mat-card>
+  </div>
   <div id="projects">
-    <a *ngFor="let program of programList" href="{{program.link}}">
-      <mat-card>
+    <a *ngFor="let program of programList" href="{{program.link}}" target="_blank">
+      <mat-card class="project-card">
         <div class="card-text">
           <mat-card-title>
             {{program.title}}

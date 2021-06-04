@@ -12,7 +12,7 @@ export const PROGRAMMING = [
     id: 2,
     title: 'new age tic-tac-toe',
     link: 'https://jackcurtin.github.io/tic_tac_toe/',
-    tech: 'html, css, javascript',
+    tech: 'html, css, & javascript',
     tagline: 'a stress-free platform for your tic-tac-toe needs',
     icon: 'https://static.thenounproject.com/png/1267357-200.png'
   },
@@ -20,7 +20,7 @@ export const PROGRAMMING = [
     id: 3,
     title: 'wayfarer',
     link: 'https://next-groove.herokuapp.com/welcome',
-    tech: 'angular,',
+    tech: 'angular',
     tagline: 'a mock-social media platform for connecting about travel',
     icon: 'https://static.thenounproject.com/png/305323-200.png'
   }
