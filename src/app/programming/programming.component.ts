@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PROGRAMMING} from "./programming";
 
 @Component({
   selector: 'app-programming',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./programming.component.css']
 })
 export class ProgrammingComponent implements OnInit {
+  programList = PROGRAMMING;
 
   constructor() { }
 

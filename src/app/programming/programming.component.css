@@ -4,22 +4,25 @@ section{
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 75%;
   overflow-y: auto;
 
 }
 mat-card{
   width: 100%;
+  margin: 0;
+}
+mat-card:hover{
+  background-color: palegreen;
 }
 #expo{
   text-align: right;
-  margin-bottom: 5%;
+  margin: 3% 0;
   width: 60%;
 }
 #projects{
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
 }
 a{
   margin: 1%;

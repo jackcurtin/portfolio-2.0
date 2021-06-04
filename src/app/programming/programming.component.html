@@ -9,44 +9,20 @@
     </mat-card-subtitle>
   </mat-card>
   <div id="projects">
-    <a href="https://next-groove.herokuapp.com/welcome" target="_blank">
-      <mat-card id="next-groove">
-        <mat-card-title>
-          next groove
-        </mat-card-title>
-        <mat-card-subtitle>
-          angular, java springboot, & postgres
-        </mat-card-subtitle>
-        <mat-card-content>
-          algorithmic playlists for vinyl enthusiasts
-          <h6>please give the site a few minutes to load information from the database</h6>
-        </mat-card-content>
-      </mat-card>
-    </a>
-    <a href="https://jackcurtin.github.io/tic_tac_toe/" target="_blank">
+    <a *ngFor="let program of programList" href="{{program.link}}">
       <mat-card>
         <mat-card-title>
-          new age tic-tac-toe
+          {{program.title}}
         </mat-card-title>
         <mat-card-subtitle>
-          html, css, javascript
+          {{program.tech}}
         </mat-card-subtitle>
         <mat-card-content>
-          a stress-free platform for your tic-tac-toe needs
+          {{program.tagline}}
         </mat-card-content>
-      </mat-card>
-    </a>
-    <a>
-      <mat-card>
-        <mat-card-title>
-          wayfarer
-        </mat-card-title>
-        <mat-card-subtitle>
-          angular
-        </mat-card-subtitle>
-        <mat-card-content>
-          a mock-social media platform for connecting about travel
-        </mat-card-content>
+        <h6 *ngIf="program.caveat">{{program.caveat}}</h6>
+        <br>
+        <img src="{{program.icon}}">
       </mat-card>
     </a>
   </div>
