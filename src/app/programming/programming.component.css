@@ -1,21 +1,26 @@
 section{
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   overflow-y: auto;
-
 }
 mat-card{
+  display: flex;
   width: 100%;
   margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 mat-card:hover{
   background-color: palegreen;
 }
 #expo{
+  flex-direction: column;
   text-align: right;
+  align-items: flex-end;
   margin: 3% 0;
   width: 60%;
 }
@@ -26,4 +31,8 @@ mat-card:hover{
 }
 a{
   margin: 1%;
+}
+.program-icon{
+  width: 83px;
+  height: 83px;
 }

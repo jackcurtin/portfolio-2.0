@@ -11,18 +11,19 @@
   <div id="projects">
     <a *ngFor="let program of programList" href="{{program.link}}">
       <mat-card>
-        <mat-card-title>
-          {{program.title}}
-        </mat-card-title>
-        <mat-card-subtitle>
-          {{program.tech}}
-        </mat-card-subtitle>
-        <mat-card-content>
-          {{program.tagline}}
-        </mat-card-content>
-        <h6 *ngIf="program.caveat">{{program.caveat}}</h6>
-        <br>
-        <img src="{{program.icon}}">
+        <div class="card-text">
+          <mat-card-title>
+            {{program.title}}
+          </mat-card-title>
+          <mat-card-subtitle>
+            {{program.tech}}
+          </mat-card-subtitle>
+          <mat-card-content>
+            {{program.tagline}}
+          </mat-card-content>
+          <h6 *ngIf="program.caveat">{{program.caveat}}</h6>
+        </div>
+        <img src="{{program.icon}}" class="program-icon">
       </mat-card>
     </a>
   </div>
