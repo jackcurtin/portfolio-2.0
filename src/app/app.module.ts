@@ -11,13 +11,17 @@ import { ProgrammingComponent } from './programming/programming.component';
 import {MatCardModule} from "@angular/material/card";
 import { AboutComponent } from './about/about.component';
 import {MatListModule} from "@angular/material/list";
+import { CreativeProjectsComponent } from './creative-projects/creative-projects.component';
+import { BottombarComponent } from './bottombar/bottombar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ProgrammingComponent,
-    AboutComponent
+    AboutComponent,
+    CreativeProjectsComponent,
+    BottombarComponent
   ],
   imports: [
     BrowserModule,

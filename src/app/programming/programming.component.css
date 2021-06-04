@@ -19,7 +19,7 @@ mat-card:hover{
   flex-direction: row;
   text-align: right;
   justify-content: space-between;
-  margin: 1%;
+  margin: 2% 1%;
   width: 100%;
   background-color: lightsteelblue;
 }
@@ -42,8 +42,5 @@ a{
 }
 #heading{
   justify-items: center;
-  width: 75%;
-}
-#projects-heading{
-  font-size: x-large;
+  width: 70%;
 }

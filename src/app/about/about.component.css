@@ -20,3 +20,9 @@ img{
   width: 25%;
   min-width: 80px;
 }
+img:hover{
+  width: 28%;
+}
+ul{
+  padding-left: 0;
+}

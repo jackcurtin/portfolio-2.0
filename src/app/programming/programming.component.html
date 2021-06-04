@@ -3,11 +3,9 @@
     <mat-card id="expo">
       <img src="https://static.thenounproject.com/png/1873915-200.png" class="program-icon">
       <div>
-        <mat-card-title id="projects-heading">
-          projects
-        </mat-card-title>
+        <mat-card-title>projects</mat-card-title>
         <mat-card-subtitle>
-          here are a few of my experiences as i have gathered knowledge as a programmer.<br>
+          here are a few of my experiences i have learned from as a programmer.<br>
           each card below acts as a link to the project.
         </mat-card-subtitle>
       </div>
@@ -17,15 +15,9 @@
     <a *ngFor="let program of programList" href="{{program.link}}" target="_blank">
       <mat-card class="project-card">
         <div class="card-text">
-          <mat-card-title>
-            {{program.title}}
-          </mat-card-title>
-          <mat-card-subtitle>
-            {{program.tech}}
-          </mat-card-subtitle>
-          <mat-card-content>
-            {{program.tagline}}
-          </mat-card-content>
+          <mat-card-title>{{program.title}}</mat-card-title>
+          <mat-card-subtitle>{{program.tech}}</mat-card-subtitle>
+          <mat-card-content>{{program.tagline}}</mat-card-content>
           <h6 *ngIf="program.caveat">{{program.caveat}}</h6>
         </div>
         <img src="{{program.icon}}" class="program-icon">
