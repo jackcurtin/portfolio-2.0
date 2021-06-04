@@ -7,16 +7,18 @@ section{
   height: 70%;
 }
 mat-card{
-  margin: 1%;
-  width: 60%;
+  width: 100%;
 }
 #expo{
   text-align: right;
   margin-bottom: 5%;
+  width: 60%;
 }
 #projects{
   display: flex;
-  flex-direction: row;
-  width: 64%;
-
+  flex-direction: column;
+  width: 60%;
+}
+a{
+  margin: 1%;
 }

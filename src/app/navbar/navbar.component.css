@@ -6,20 +6,15 @@ nav{
 mat-list{
   display: inline-flex;
   margin: 0;
+  padding-top: 0;
   width: 45%;
 }
 mat-list-item{
-  width: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0 2%;
 }
 mat-list-item:hover{
   background-color: grey;
   cursor: pointer;
-
-}
-h4:active{
-  background-color: lightgrey;
 }
 h4{
   color: whitesmoke;
@@ -32,6 +27,12 @@ h1{
   margin: 0% 1% 0.5% 1%;
   padding-top: 0.5%;
 }
-about{
-  width: content-box;
+#about{
+  width: auto
+}
+#programming{
+  width: auto;
+}
+#creative-projects{
+  width: auto;
 }
