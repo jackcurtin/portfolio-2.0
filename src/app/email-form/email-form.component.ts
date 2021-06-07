@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./email-form.component.css']
 })
 export class EmailFormComponent implements OnInit {
-  emailAddress: string | undefined;
-  message: string | undefined;
+  emailAddress: string = '';
+  message: string = '';
 
   constructor() { }
+
+  sendEmail(email: string, message: string): void{
+    console.log(`email sent from ${email} containing the following message:
+    ${message}`)
+  }
 
   ngOnInit(): void {
   }
