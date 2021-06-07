@@ -1,0 +1,13 @@
+#email-form{
+  display: flex;
+  flex-direction: column;
+}
+#message{
+  height: auto;
+}
+.hidden {
+  display: none
+}
+.visible {
+  display: block
+}

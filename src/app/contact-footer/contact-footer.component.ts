@@ -9,12 +9,21 @@ import {EmailFormComponent} from "../email-form/email-form.component";
 })
 export class ContactFooterComponent implements OnInit {
 
-  constructor(public dialog: MatDialog) { }
+  // @ts-ignore
+  name: string;
+  // @ts-ignore
+  email: string;
+  // @ts-ignore
+  message: string;
+
+
+  constructor(public dialog: MatDialog) {}
 
   openDialog() {
     const dialogRef = this.dialog.open(EmailFormComponent, {
-      width: '50%'
-    })
+      width: '50%',
+      data: {name: this.name, email: this.email, message: this.message}
+    });
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
