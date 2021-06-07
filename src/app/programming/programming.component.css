@@ -44,3 +44,15 @@ a{
   justify-items: center;
   width: 70%;
 }
+mat-card-subtitle{
+  margin: 0;
+}
+mat-card-content{
+  margin-top: 1%;
+  font-size: medium;
+}
+h6{
+  margin: 0;
+  font-size: small;
+  font-style: italic;
+}

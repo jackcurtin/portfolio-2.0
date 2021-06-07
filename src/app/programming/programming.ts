@@ -19,9 +19,10 @@ export const PROGRAMMING = [
   {
     id: 3,
     title: 'wayfarer',
-    link: 'https://next-groove.herokuapp.com/welcome',
+    link: 'https://mock-wayfarer.herokuapp.com/cities/1',
     tech: 'angular',
     tagline: 'a mock-social media platform for connecting about travel',
+    caveat: 'this site is how i learned the basics of building a single page application with Angular',
     icon: 'https://static.thenounproject.com/png/305323-200.png'
   }
 ]
