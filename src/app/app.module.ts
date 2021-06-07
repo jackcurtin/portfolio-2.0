@@ -14,6 +14,10 @@ import {MatListModule} from "@angular/material/list";
 import { CreativeProjectsComponent } from './creative-projects/creative-projects.component';
 import { BottombarComponent } from './bottombar/bottombar.component';
 import { ContactFooterComponent } from './contact-footer/contact-footer.component';
+import { EmailFormComponent } from './email-form/email-form.component';
+import {MatDialogModule} from "@angular/material/dialog";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -23,7 +27,8 @@ import { ContactFooterComponent } from './contact-footer/contact-footer.componen
     AboutComponent,
     CreativeProjectsComponent,
     BottombarComponent,
-    ContactFooterComponent
+    ContactFooterComponent,
+    EmailFormComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +37,10 @@ import { ContactFooterComponent } from './contact-footer/contact-footer.componen
     MatMenuModule,
     MatIconModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
