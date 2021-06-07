@@ -1,0 +1,27 @@
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#envelope{
+  display: flex;
+  justify-content: flex-end;
+  height: 25px;
+  padding: 12px;
+  float: right;
+}
+
+h3{
+  float: right;
+  margin: 0 20px 0 0;
+  padding: 12px;
+}

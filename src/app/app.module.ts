@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import {MatListModule} from "@angular/material/list";
 import { CreativeProjectsComponent } from './creative-projects/creative-projects.component';
 import { BottombarComponent } from './bottombar/bottombar.component';
+import { ContactFooterComponent } from './contact-footer/contact-footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BottombarComponent } from './bottombar/bottombar.component';
     ProgrammingComponent,
     AboutComponent,
     CreativeProjectsComponent,
-    BottombarComponent
+    BottombarComponent,
+    ContactFooterComponent
   ],
   imports: [
     BrowserModule,
