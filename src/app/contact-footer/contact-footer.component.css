@@ -20,6 +20,11 @@ footer{
   float: right;
 }
 
+#envelope:hover{
+  height: 27px;
+  cursor: pointer;
+}
+
 h3{
   float: right;
   margin: 0 20px 0 0;

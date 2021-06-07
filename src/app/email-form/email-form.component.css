@@ -1,13 +1,32 @@
 #email-form{
   display: flex;
   flex-direction: column;
-}
-#message{
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 .hidden {
   display: none
 }
 .visible {
   display: block
+}
+input,
+button {
+  margin: 5px 0;
+}
+mat-form-field{
+  margin-bottom: 5px;
+  width: 80%;
+}
+button {
+  margin-top: 10px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 4px 16px;
+  transition: 0.4s;
+  width: 20%;
+  min-width: 83px;
+  margin-top: 10px;
 }
