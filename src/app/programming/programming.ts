@@ -18,8 +18,17 @@ export const PROGRAMMING = [
   },
   {
     id: 3,
+    title: 'foxtrot discover',
+    link: 'https://foxtrot-interview.herokuapp.com/',
+    tech: 'react, next.js',
+    tagline: 'a browsing page for purchasing wine, populated by fetching from an API',
+    caveat: 'this site is the culmination of a handful of beginner tutorial i followed to teach myself react. also my first experience utilized the next.js framework',
+    icon: 'https://static.thenounproject.com/png/305323-200.png'
+  },
+  {
+    id: 4,
     title: 'wayfarer',
-    link: 'https://mock-wayfarer.herokuapp.com/cities/1',
+    link: 'https://github.com/jackcurtin/wayfarer',
     tech: 'angular',
     tagline: 'a mock-social media platform for connecting about travel',
     caveat: 'this site is how i learned the basics of building a single page application with Angular',
