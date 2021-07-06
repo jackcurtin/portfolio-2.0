@@ -28,6 +28,7 @@ mat-card:hover{
   flex-direction: column;
   justify-items: center;
   width: 60%;
+  margin-bottom: 7%;
 }
 a{
   margin: 1%;
@@ -43,6 +44,7 @@ a{
 #heading{
   justify-items: center;
   width: 70%;
+  margin-top: 7%;
 }
 mat-card-subtitle{
   margin: 0;

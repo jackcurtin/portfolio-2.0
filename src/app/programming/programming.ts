@@ -22,8 +22,8 @@ export const PROGRAMMING = [
     link: 'https://foxtrot-interview.herokuapp.com/',
     tech: 'react, next.js',
     tagline: 'a browsing page for purchasing wine, populated by fetching from an API',
-    caveat: 'this site is the culmination of a handful of beginner tutorial i followed to teach myself react. also my first experience utilized the next.js framework',
-    icon: 'https://static.thenounproject.com/png/305323-200.png'
+    caveat: 'the introductory culmination of a teaching myself react. first experience utilizing the next.js framework',
+    icon: '../../assets/foxtrot.ico'
   },
   {
     id: 4,

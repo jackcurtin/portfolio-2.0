@@ -1,7 +1,10 @@
 nav{
   background-color: black;
   color: whitesmoke;
+  position: fixed;
   width: 100vw;
+  overflow: hidden;
+  z-index: 100;
 }
 mat-list{
   display: inline-flex;
