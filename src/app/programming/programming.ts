@@ -31,7 +31,7 @@ export const PROGRAMMING = [
     tech: 'react, next.js',
     tagline: 'a browsing page for purchasing wine, populated by fetching from an API',
     caveat: 'the introductory culmination of a teaching myself react. first experience utilizing the next.js framework',
-    icon: '../../assets/foxtrot.ico'
+    icon: 'https://i.pinimg.com/originals/2e/01/2a/2e012abec871b0167f21b62ed066cfbb.png'
   },
   {
     id: 5,
