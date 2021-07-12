@@ -3,13 +3,21 @@ export const PROGRAMMING = [
     id: 1,
     title: 'next groove',
     link: 'https://next-groove.herokuapp.com/welcome',
-    tech: 'angular, springboot framework, & postgres',
+    tech: 'angular, java springboot, postgres, & heroku',
     tagline: 'algorithmic playlisting for vinyl enthusiasts',
     caveat: 'please give the site a few minutes to load information from the database',
     icon: 'https://static.thenounproject.com/png/934821-200.png'
   },
   {
     id: 2,
+    title: 'bookkeeper',
+    link: 'https://main.d2y5z0hduq87qy.amplifyapp.com/',
+    tech: 'react, java springboot, & postgres, AWS, & heroku',
+    tagline: 'contribute to a library that helps users track their reading habits',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/1024px-Font_Awesome_5_solid_book.svg.png'
+  },
+  {
+    id: 3,
     title: 'new age tic-tac-toe',
     link: 'https://jackcurtin.github.io/tic_tac_toe/',
     tech: 'html, css, & javascript',
@@ -17,7 +25,7 @@ export const PROGRAMMING = [
     icon: 'https://static.thenounproject.com/png/1267357-200.png'
   },
   {
-    id: 3,
+    id: 4,
     title: 'foxtrot discover',
     link: 'https://foxtrot-interview.herokuapp.com/',
     tech: 'react, next.js',
@@ -26,7 +34,7 @@ export const PROGRAMMING = [
     icon: '../../assets/foxtrot.ico'
   },
   {
-    id: 4,
+    id: 5,
     title: 'wayfarer',
     link: 'https://github.com/jackcurtin/wayfarer',
     tech: 'angular',
